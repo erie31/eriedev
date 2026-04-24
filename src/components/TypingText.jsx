@@ -1,7 +1,16 @@
 import React, { useState, useEffect } from 'react';
+import { motion } from "framer-motion";
 
 const TypingText = () => {
-    const phrases = ["Gamification", "Minimalist", "Ideas in solid code.", "Product Engineer"];
+    // Aquí ponemos tus frases de "Solution" y las anteriores
+    const phrases = [
+        "Solution Development & Programming",
+        "Gamification Expert",
+        "Minimalist Design",
+        "Ideas in solid code.",
+        "Product Engineer"
+    ];
+
     const [index, setIndex] = useState(0);
     const [subIndex, setSubIndex] = useState(0);
     const [reverse, setReverse] = useState(false);
@@ -24,7 +33,14 @@ const TypingText = () => {
     }, [subIndex, index, reverse]);
 
     return (
-        <span>{phrases[index].substring(0, subIndex)}<span className="animate-pulse">|</span></span>
+        <span className="inline-block">
+            {phrases[index].substring(0, subIndex)}
+            <motion.span
+                animate={{ opacity: [1, 0] }}
+                transition={{ repeat: Infinity, duration: 0.8 }}
+                className="inline-block w-[2px] h-[1em] bg-emerald-500 align-middle ml-1"
+            />
+        </span>
     );
 };
 

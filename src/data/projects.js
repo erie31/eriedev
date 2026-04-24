@@ -3,9 +3,9 @@ export const projectsData = [
     title: "Dublin Fotocabinas",
     stack: "React + Vite + Firebase",
     description: "Progressive Web App with offline support, automated background sync, and Firestore integration for dynamic budget calculation and admin dashboard.",
-    image: "/assets/dublin-preview.jpg",
+    image: "/assets/",
     link: "https://dublin.com",
-    tags: ["PWA", "Firebase", "Zustand"]
+    tags: ["PWA", "Firebase"]
   },
   {
     title: "IWOKA Check-in System",
@@ -19,7 +19,7 @@ export const projectsData = [
     title: "CÁLCULO DE BOTÍN",
     stack: "React + Vite + Firebase",
     description: "Description 3",
-    image: "/assets/project3-preview.jpg",
+    image: "/assets/calculodebotin.png",
     link: "https://erie31.github.io/DCRFN/",
     tags: ["HTML5 & CSS3", "JavaScript"]
   },
@@ -31,4 +31,12 @@ export const projectsData = [
     link: "https://project4.com",
     tags: ["Axios", "Redux", "Tailwind"]
   }
+    {
+    title: "Dublin Fotocabinas",
+    stack: "React + Vite + Firebase",
+    description: "Progressive Web App with offline support, automated background sync, and Firestore integration for dynamic budget calculation and admin dashboard.",
+    image: "/assets/",
+    link: "https://dublin.com",
+    tags: ["PWA", "Firebase", "Zustand"]
+  },
 ];
