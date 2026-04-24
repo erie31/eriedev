@@ -15,7 +15,7 @@ const ProjectBar = ({ title, stack, description, image, link, tags }) => {
         {/* CONTENT */}
         <div className="flex-1 space-y-4">
           <div className="flex items-center justify-between gap-4">
-            <h3 className="text-3xl font-bold tracking-tight text-white group-hover:text-dublin-gold transition-colors">
+            <h3 className="text-3xl font-bold tracking-tight text-white group-hover:text-emerald-500 transition-colors">
               {title}
             </h3>
             <span className="text-xs font-mono uppercase text-zinc-600 bg-zinc-900 px-3 py-1.5 rounded-full border border-zinc-800">
@@ -28,7 +28,7 @@ const ProjectBar = ({ title, stack, description, image, link, tags }) => {
           <div className="flex gap-2.5 pt-2">
             {tags.map((tag, index) => (
               <span key={index}
-                className="text-xs font-medium text-dublin-gold/80 bg-dublin-gold/5 px-4 py-1.5 rounded-full border border-dublin-gold/10">
+                className="text-emerald-500/80 bg-emerald-500/5 border-emerald-500/10">
                 {tag}
               </span>
             ))}

@@ -37,7 +37,7 @@ const TypingText = () => {
     }, [subIndex, index, reverse]);
 
     return (
-        <span className="text-emerald-500 font-medium">
+        <span className="text-emerald-500 font-light">
             {phrases[index].substring(0, subIndex)}
             <motion.span
                 animate={{ opacity: [1, 0] }}
