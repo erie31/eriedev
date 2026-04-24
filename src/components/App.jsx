@@ -13,7 +13,7 @@ const PROJECTS = [
         title: "Dublin Fotocabinas",
         stack: "PWA / Firebase",
         description: "Gestión integral de eventos y tarjetas virtuales con QR para cabinas fotográficas.",
-        image: "/assets/dublin-preview.jpg",
+        image: "/assets/dublin.png",
         link: "https://dublinfotocabinas.web.app",
         tags: ["React", "Firebase", "QR-Engine", "PWA"]
     },
@@ -31,7 +31,7 @@ const PROJECTS = [
         title: "Reward Calculator",
         stack: "Vanilla JS / Algorithms",
         description: "Calculadora especializada en lógica de recompensas para optimización de inventarios.",
-        image: "/assets/botin.png",
+        image: "/assets/calculodebotin.png",
         link: "https://erie31.github.io/DCRFN/",
         tags: ["Logic", "JavaScript", "Tools"]
     },
@@ -40,7 +40,7 @@ const PROJECTS = [
         title: "Merakicakes",
         stack: "E-commerce / Vercel",
         description: "Plataforma de venta online optimizada para pastelería artesanal con enfoque en UX.",
-        image: "/assets/dublin-preview.jpg",
+        image: "/assets/meraki.png",
         link: "https://meraki-eight.vercel.app",
         tags: ["React", "Tailwind", "Responsive"]
     },
@@ -49,7 +49,7 @@ const PROJECTS = [
         title: "EerieScore",
         stack: "Board Games Tool",
         description: "Aplicación web dedicada al seguimiento y gestión de puntuaciones en juegos de mesa.",
-        image: "/assets/eriiescore.png",
+        image: "/assets/eeriescore.png",
         link: "https://erie31.github.io/EerieScore/",
         tags: ["Gaming", "UI/UX", "React"]
     }
