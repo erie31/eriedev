@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+    --font-outfit: "Outfit", sans-serif;
+    --font-montserrat: "Montserrat", sans-serif;
+    --color-emerald-500: #10b981;
+}
+
+@layer base {
+    html {
+        @apply antialiased scroll-smooth;
+        font-family: var(--font-outfit);
+        background-color: #000000;
+        color: #ffffff;
+    }
+
+    body {
+        @apply bg-black text-white;
+        background-color: #000000;
+    }
+}

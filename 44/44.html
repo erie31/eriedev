@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Minimalist Developer</title>
+    <meta name="description" content="Portfolio minimalista centrado en la profesionalidad y diseño premium.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/lucide.min.js"></script>
+  <script type="module" crossorigin src="/assets/index-DN6RAq_W.js"></script>
+</head>
+
+<body>
+    <div class="background-glow"></div>
+
+    <header>
+        <nav class="container">
+            <div class="logo">Erié<span>.</span></div>
+            <button id="theme-toggle" aria-label="Toggle Theme">
+                <i data-lucide="moon" class="theme-icon-dark"></i>
+                <i data-lucide="sun" class="theme-icon-light"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main class="container minimal-layout">
+        <!-- Profile Image -->
+        <section class="profile-section">
+            <div class="image-wrapper reveal">
+                <img src="/assets/68356303_10215101462551811_423024402863489024_n-D-X4vNvA.jpg" alt="Profile Photo" id="profile-img">
+            </div>
+        </section>
+
+        <!-- Hero Content -->
+        <section class="hero-section">
+            <h1 class="reveal">AI-Augmented Developer</h1>
+            <div class="typing-container reveal">
+                <p id="typing-text"></p><span class="cursor">|</span>
+            </div>
+        </section>
+
+        <!-- Tech Stack -->
+        <section class="tech-stack reveal">
+            <div class="tech-group">
+                <h3>Frontend</h3>
+                <div class="tech-tags">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">TypeScript</span>
+                    <span class="tech-tag">JavaScript (ES6+)</span>
+                    <span class="tech-tag">Tailwind CSS</span>
+                    <span class="tech-tag">TanStack Query</span>
+                    <span class="tech-tag">Zustand</span>
+                    <span class="tech-tag">Framer Motion</span>
+                </div>
+            </div>
+
+            <div class="tech-group">
+                <h3>UI & Components</h3>
+                <div class="tech-tags">
+                    <span class="tech-tag">Shadcn/ui</span>
+                    <span class="tech-tag">Radix UI</span>
+                    <span class="tech-tag">Lucide Icons</span>
+                    <span class="tech-tag">CSS3</span>
+                    <span class="tech-tag">Bootstrap (Legacy)</span>
+                </div>
+            </div>
+
+            <div class="tech-group">
+                <h3>Backend & Cloud</h3>
+                <div class="tech-tags">
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">Express</span>
+                    <span class="tech-tag">Firebase</span>
+                    <span class="tech-tag">Supabase</span>
+                    <span class="tech-tag">Prisma ORM</span>
+                    <span class="tech-tag">Zod</span>
+                </div>
+            </div>
+
+            <div class="tech-group">
+                <h3>Build & Tools</h3>
+                <div class="tech-tags">
+                    <span class="tech-tag">Vite</span>
+                    <span class="tech-tag">Git</span>
+                    <span class="tech-tag">GitHub</span>
+                    <span class="tech-tag">NVM</span>
+                    <span class="tech-tag">PWA</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content reveal">
+            <div class="social-icons">
+                <a href="https://github.com" target="_blank" title="GitHub"><i data-lucide="github"></i></a>
+                <a href="https://linkedin.com" target="_blank" title="LinkedIn"><i data-lucide="linkedin"></i></a>
+                <a href="https://git-scm.com" target="_blank" title="Git"><i data-lucide="git-branch"></i></a>
+                <a href="mailto:eric@example.com" title="Email"><i data-lucide="mail"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Ensure Lucide icons are created after everything is loaded
+        window.addEventListener('load', () => {
+            if (window.lucide) {
+                lucide.createIcons();
+            }
+        });
+    </script>
+</body>
+
+</html>
