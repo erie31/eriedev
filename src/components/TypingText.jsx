@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { motion } from "framer-motion";
 
 const TypingText = () => {
-    // Aquí ponemos tus frases de "Solution" y las anteriores
     const phrases = [
         "Solution Development & Programming",
         "Gamification Expert",

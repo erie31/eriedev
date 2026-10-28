@@ -19,12 +19,12 @@ const PROJECTS = [
     },
     {
         id: 2,
-        title: "Rust Core Architecture",
-        stack: "Rust / Axum / Tauri",
-        description: "Migración de infraestructura crítica de Node.js a una arquitectura nativa de alto rendimiento.",
-        image: "/assets/rust-preview.jpg",
-        link: "#",
-        tags: ["Rust", "Axum", "Tauri", "Backend"]
+        title: "3dimensiones",
+        stack: "Web / 3D Printing",
+        description: "Sitio web de impresiones 3D.",
+        image: "/assets/3dimensiones.png",
+        link: "https://dimension-2f50b.web.app/",
+        tags: ["3D Printing", "Web", "E-commerce"]
     },
     {
         id: 3,
